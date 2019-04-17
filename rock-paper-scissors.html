@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <title>Jakub Radzik- Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple school game, I used to play in rock paper scissors in primary school, so I am been able to write this game in five difficulty level.">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="bg-primary text-uppercase font-weight-bold text-white">
+
+<div class="levels container-fluid bg-danger">
+
+    <span id="tooeasy">Antydepresyjny</span>
+    <span id="easy">Łatwy</span>
+    <span id="normal">Zrównoważony</span>
+    <span id="hard">Trudny</span>
+    <span id="imposible">Imposibru</span>
+
+</div>
+<h1 class="display-3 text-center">Rock Paper Scissors</h1>
+
+
+<div class="images container-fluid text-center p-5">
+    <img src="rock.png" alt="Rock" id="1">
+    <img src="paper.png" alt="Paper" id="2">
+    <img src="scissors.png" alt="Scissors" id="3">
+</div>
+<!--
+<div class="choice">
+<img src="rock.png" alt="Rock" id="pcRock">
+<img src="paper.png" alt="Paper" id="pcPaper">
+<img src="scissors.png" alt="Scissors" id="pcScissors">
+</div>
+-->
+<div class="fight">
+    <div class="me">
+        <img src="head.png" alt="head">
+    </div>
+    <div class="text">
+        VS
+    </div>
+    <div class="pc">
+        <img src="robot.png" alt="computer">
+    </div>
+</div>
+<div class="result">Who will win?</div>
+
+<div class="table container-fluid text-center">
+    <table class="counter">
+
+        <tr>
+            <td>WYGRANE</td>
+            <td>REMIS</td>
+            <td>PRZEGRANE</td>
+        </tr>
+
+        <tr>
+            <td id="wins"></td>
+            <td id="remises"></td>
+            <td id="loses"></td>
+        </tr>
+
+    </table>
+</div>
+
+</body>
+</html>

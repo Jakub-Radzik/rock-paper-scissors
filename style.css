@@ -1,0 +1,280 @@
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.levels > div{
+    transition:0.3s;
+}
+
+.levels > div:hover{
+    color:cyan;
+}
+
+.images > img, table{
+    background-color: transparent;
+    box-shadow: 0px 0px 26px 12px rgba(0,0,0,0.75);
+    border-collapse: collapse;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+.levels{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom:40px;
+}
+
+
+
+
+#hard, #normal, #easy, #tooeasy,#imposible{
+    cursor: pointer;
+}
+
+    hr {
+        border: 0px;
+        height: 2px;
+        box-shadow: 0 0 10px 1px red;
+      }
+
+
+tr, td{
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.images>img{
+    width: 200px;
+    border: 2px black solid;
+    height: 200px;
+    border-radius: 50px 100px 50px 100px;
+    transition: 0.5s;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 826px) {
+    .images > img {
+      height: 150px;
+      width: 150px
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    .images > img {
+      height: 90px;
+      width: 90px
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .images > img {
+      height: 70px;
+      width: 70px
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .images > img {
+      height: 50px;
+      width: 50px
+    }
+  }
+
+.images>img:hover{
+    opacity: 0.9;
+    box-shadow: 0px 0px 26px 12px rgba(0,0,0,0.75);
+    border-radius: 100px 50px 100px 50px;
+    background-color: rgb(211, 199, 231);
+}
+
+.choice{
+    display: flex;
+    justify-content:  center;
+}
+
+
+
+.counter{
+    clear: both;
+    border: 1px black solid;
+}
+
+td
+{
+    font-size: 50px;
+    text-align:center;
+}
+
+@media only screen and (max-width: 826px) {
+    td
+{
+    font-size: 30px;
+}
+  }
+
+  @media only screen and (max-width: 500px) {
+    td
+{
+    font-size: 15px;
+}
+  }
+ 
+
+#pcRock{
+    position: absolute;
+    z-index: 19;
+    text-align: center;
+}
+
+#pcScissors{
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    
+}
+
+#pcPaper{
+    position: absolute;
+    z-index:21;
+    text-align: center;
+    
+}
+
+.result{
+    margin-top:20px;
+    font-size:2rem;
+}
+
+@media only screen and (max-width: 300px) {
+    td
+{
+    font-size: 10px;
+}
+
+.result{
+    font-size:1rem;
+}
+  }
+
+.fight{
+    height:250px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.pc,.me,.text{
+    margin-top:40px;
+    height: 150px;
+}
+
+.text{
+    font-size: 5em;
+}
+
+.fight > .pc > img, .fight > .me > img{
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 0px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 826px) {
+    .fight > .pc > img, .fight > .me > img {
+      height: 100px;
+      width: 100px
+    }
+  }
+
+  @media only screen and (max-width: 310px) {
+    .fight > .pc > img, .fight > .me > img {
+      height: 70px;
+      width: 70px
+    }
+  }
+
+.result{
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+button{
+    height: 50px;
+}
+
+a{
+    font-weight: bold;
+    color:white;
+}
+
+nav{
+    background-color: #233a70;
+}
+
+header > div.container > img{
+    margin-top:100px;
+    height: 400px;
+    width: 400px
+}
+
+@media only screen and (max-width: 600px) {
+  header > div.container > img {
+    margin-top:100px;
+    height: 250px;
+    width: 250px
+  }
+}
+
+
+
+.logos{
+  display: flex;
+  justify-content: center;
+}
+
+.logos img{
+  width: 50px;
+  height:50px;
+  margin: 0;
+}
+
+
+
+.tech > img{
+  height: 300px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tech > img {
+    margin-top:15px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 200px
+  }
+}
+
+.modal img{
+    width: 200px;
+    height: 200px;
+  }
