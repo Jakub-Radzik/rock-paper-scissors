@@ -102,8 +102,6 @@ else if(level==2){
 
     var $id = parseInt($(this).attr("id"));
             var $pcChoice = Math.floor((Math.random()*100)+1);
-            var $pcChoiceName="";
-            var $myChoiceName;
             var $pcImg, $myImg;
          
             
@@ -282,8 +280,6 @@ else if(level==4){
 
     var $id = parseInt($(this).attr("id"));
             var $pcChoice = Math.floor((Math.random()*100)+1);
-            var $pcChoiceName="";
-            var $myChoiceName;
             var $pcImg, $myImg;
          
             
